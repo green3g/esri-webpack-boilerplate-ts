@@ -1,3 +1,5 @@
+import '../../css/index.scss';
+
 import { esriPromise } from 'esri-promise';
 import { Promise } from 'es6-promise';
 import ItemHelperFactory from "../boilerplate/ItemHelper";
