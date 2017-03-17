@@ -1,4 +1,4 @@
-# TypeScript ArcGIS Boilerplate
+# Webpack ArcGIS JS API Application Boilerplate
 
 ## Includes: 
 
