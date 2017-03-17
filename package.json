@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicksenger/ts-arcapp.git"
+    "url": "git+https://github.com/nicksenger/application-boilerplate-ts.git"
   },
   "keywords": [
     "Esri",
@@ -21,9 +21,9 @@
   "author": "Nick Senger",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nicksenger/ts-arcapp/issues"
+    "url": "https://github.com/nicksenger/application-boilerplate-ts/issues"
   },
-  "homepage": "https://github.com/nicksenger/ts-arcapp#readme",
+  "homepage": "https://github.com/nicksenger/application-boilerplate-ts#readme",
   "devDependencies": {
     "@types/arcgis-js-api": "^4.2.0",
     "awesome-typescript-loader": "^3.1.2",
