@@ -1,6 +1,12 @@
-# TypeScript ArcGIS Boilerplate bundled with Webpack
+# TypeScript ArcGIS Boilerplate
 
-Includes: Dojo & ArcGIS JS API 4.3 type definitions, SASS & customizable build of Calcite Web (entrypoint at `./src/css/index.scss`, built to `./dist/bundle.css`), type safe (mostly) boilerplate for buliding applications with the ArcGIS JS API.
+## Includes: 
+
+- Dojo & ArcGIS JS API 4.3 type definitions, 
+- SASS & customizable build of Calcite Web (entrypoint at `./src/css/index.scss`, built to `./dist/bundle.css`)
+- Asynchronous resolution of Esri & Dojo modules via AMD (dojo) using [esri-promise](https://www.npmjs.com/package/esri-promise)
+- Synchronous resolution & bundling of local TypeScript modules with WebPack
+- type safe (mostly) boilerplate for buliding applications with the ArcGIS JS API.
 
 ## Installation:
 
