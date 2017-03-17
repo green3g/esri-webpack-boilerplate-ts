@@ -2,10 +2,10 @@
 
 ## Includes: 
 
-- Dojo & ArcGIS JS API 4.3 type definitions, 
-- SASS & customizable build of [Calcite Web](https://esri.github.io/calcite-web/) (entrypoint at `./src/css/index.scss`, built to `./dist/bundle.css`)
-- Asynchronous resolution of Esri & Dojo modules via AMD (dojo) using [esri-promise](https://www.npmjs.com/package/esri-promise)
-- Synchronous resolution & bundling of local TypeScript (& node) modules with WebPack
+- Dojo & ArcGIS JS API 4.3 type definitions,
+- SASS & customizable build of [Calcite Web](https://esri.github.io/calcite-web/) (entrypoint at `./src/css/index.scss`, built to `./dist/bundle.css`),
+- Asynchronous resolution of Esri & Dojo modules via AMD (dojo) using [esri-promise](https://www.npmjs.com/package/esri-promise),
+- Synchronous resolution & bundling of local TypeScript (& node) modules with Webpack 2,
 - Type safe (mostly) boilerplate for building applications with the ArcGIS JS API.
 
 ## Installation:
