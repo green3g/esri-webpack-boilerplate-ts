@@ -2,6 +2,7 @@ import { esriPromise } from 'esri-promise';
 import { Promise } from 'es6-promise';
 import BoilerFactory from './boilerplate/boilerplate';
 import ApplicationFactory from './application/application';
+import './test';
 
 esriPromise([ // Get some info from configuration files with the dojo loader
   'dojo/text!config/appConfig.json',
@@ -12,7 +13,7 @@ esriPromise([ // Get some info from configuration files with the dojo loader
     .then((BoilerInstance) => {
       BoilerInstance.init() // initialize the boilerplate --> this returns a promise that resolves with the info we need to boot up our app
       .then((boilerplateResponse) => {
-        AppInstance.init(boilerplateResponse);  // initialize the application 
+        AppInstance.init(boilerplateResponse);  // initialize the application
       })
     }).catch(Promise.reject)
   }).catch(Promise.reject)
